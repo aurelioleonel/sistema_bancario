@@ -47,7 +47,7 @@ while True:
                     extratos_bancarios["Extrato Geral"].append(f"Data: {str(data)} - Saque: R$ {valor_saque:.2f}")  # Adiciona o registro do saque ao extrato geral
                     print("Saque Realizado com Sucesso!")
                     numeros_saques += 1
-                    saldo -= valor_saque# Incrementa o contador de saques
+                    saldo -= valor_saque  # Decrementa o saldo a cada saque
                 elif valor_saque > saldo:
                     print("O cliente não tem valor suficiente para o saque.")
                     print("Por favor retire um extrato para verificar seu saldo atual")
