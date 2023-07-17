@@ -61,9 +61,10 @@ while True:
     elif opcao.upper() == "E":  # Sub menu da opção extrato
         while True:
             opcao_de_estrato = int(input("""
-    [ 1 ] Extrato Geral
-    [ 2 ] Extrato de Saques
-    [ 3 ] Extrato de Depósitos
+    ESCOLHA UMA OPÇÃO DE EXTRATO        
+    [ 1 ] Geral
+    [ 2 ] Saques
+    [ 3 ] Depósitos
     [ 4 ] Sair
     """))
 
